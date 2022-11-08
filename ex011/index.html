@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <h1>links para download</h1>
+  <ul>
+    <li><a href="livro/meulivro.pdf" download="meulivro.pdf" type="application/pdf">livro pdf</a></li>
+    <li><a href="livro/meulivro.zip" download="meulivro.zip" type="application/zip">livro zip</a></li>
+  </ul>
+
+   <h1>imagens dinamicas</h1>
+   <picture>
+       <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+       <source media="(max-width: 1050px )" srcset="imagens/foto-m.png" type="image/png">
+       <img src="imagens/foto-g.png" alt="foto grande">
+   </picture>
+
+   <h1>audios</h1>
+   <audio controls autoplay>
+     <source src="media/guanacast-33.mp3" type="audio/mpeg">
+   </audio>
+
+   <h1>videos</h1>
+   <video poster="imagens/limoes-capa.png" width="560" controls autoplay>
+         <source src="video/meu-video.mp4" type="video/mp4">
+         <source src="video/meu-video.m4v" type="video/mp4">
+         <source src="video/meu-video.ogv" type="video/ogv">
+         <source src="video/meu-video.webm" type="video/webm">
+   </video>
+
+   <h1>video externo</h1>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/TJRyKe2IAU8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
